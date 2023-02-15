@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN install -y apt-transport-https
+RUN apt-get install -y apt-transport-https
 RUN apt-get clean && apt-get update
 RUN apt-get install -y python3-pip python3-dev build-essential
 
