@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN apt-get update && apt-get install -y python3-pip # python3-dev build-essential
+RUN apt-get update && apt-get install -y python3-pip
 
 WORKDIR /app
 COPY requirements.txt /app/
